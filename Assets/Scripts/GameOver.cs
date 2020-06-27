@@ -21,4 +21,13 @@ public class GameOver : MonoBehaviour
         SoundManager.instance.InicializarSom(SoundManager.instance.audioPlay);
         SceneManager.LoadScene(ECena.PrimeiraFase.ToDescription());
     }
+
+    public void Sair()
+    {
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
+        #endif  
+    }
 }

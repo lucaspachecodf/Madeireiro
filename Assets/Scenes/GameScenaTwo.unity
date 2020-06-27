@@ -194,6 +194,74 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1607186131, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0000038146973
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607186131, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 510.77448
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607186131, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 208.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607186131, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 108.89328
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607186132, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607186132, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607186132, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607186132, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607186132, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607186132, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607186132, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_Text
+      value: FASE 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607186132, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607186132, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607186132, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607186132, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607186132, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_FontData.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607186132, guid: db16db5596a003f43be5064fb7ce9bff, type: 3}
+      propertyPath: m_FontData.m_LineSpacing
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5771404809864946520, guid: db16db5596a003f43be5064fb7ce9bff,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -302,8 +370,13 @@ PrefabInstance:
     - target: {fileID: 5771404809864946524, guid: db16db5596a003f43be5064fb7ce9bff,
         type: 3}
       propertyPath: m_Name
-      value: HUD
+      value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5771404809864946527, guid: db16db5596a003f43be5064fb7ce9bff,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 705715455}
     - target: {fileID: 5771404810318226728, guid: db16db5596a003f43be5064fb7ce9bff,
         type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
