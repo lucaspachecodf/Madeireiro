@@ -39,7 +39,7 @@ public class Personagem : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D collider)
     {
         GameManager.instance.gameOver = true;
         GameManager.instance.SalvarPontuacao();

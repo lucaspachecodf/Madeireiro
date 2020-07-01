@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     public int fase = (int)EFase.PrimeiraFase;
     public Text descricaoFase;
 
-    private float larguraBarra = 188f;
+    private float tamanhoBarra = 178f;
     private int maximoTronco = 8;
     private bool hasGalho = false;
     private int pontos = 0;
@@ -123,7 +123,7 @@ public class GameManager : MonoBehaviour
     {
         tempoAtual -= Time.deltaTime;
         float tempo = tempoAtual / tempoJogo;
-        float posicaoX = larguraBarra - (tempo * larguraBarra);
+        float posicaoX = tamanhoBarra - (tempo * tamanhoBarra);
 
         tempoBarra.transform.localPosition = new Vector2(-posicaoX, tempoBarra.transform.localPosition.y);
 

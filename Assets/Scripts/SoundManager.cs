@@ -14,15 +14,11 @@ public class SoundManager : MonoBehaviour
         if (instance == null)
             instance = this;
         else
+            //Se já existir destrói;
             Destroy(instance);
 
+        //Toda vez que carregar uma cena esse game object não será destruido;
         DontDestroyOnLoad(gameObject);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void InicializarSom(AudioClip audio)
